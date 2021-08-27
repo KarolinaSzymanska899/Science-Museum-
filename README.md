@@ -1,4 +1,4 @@
-# Science-Museum-
+# Science-Museum
 
 The Science Museum website was made as a Semester Project 1 in my 1st year at Noroff Frontend Development. The Project is one of my very first ones and I used HTML and CSS here.
 It is a responsive, informative website for a fictional Science Museum.
