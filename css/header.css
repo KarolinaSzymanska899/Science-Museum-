@@ -5,3 +5,13 @@ header {
 .logo {
   width: 7rem;
 }
+
+li a {
+  color: var(--purple);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Nasalization", sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+}
