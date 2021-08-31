@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("footer.css");
+@import url("https://use.typekit.net/dvq1lab.css");
 
 * {
   padding: 0;
@@ -13,4 +14,9 @@
   --purple: #640880;
   --yellow: #ffe229;
   --grey: #e7e7e7;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
 }
