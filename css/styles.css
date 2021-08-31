@@ -18,13 +18,13 @@
 
 html {
   font-size: 16px;
-  font-family: All Round Gothic;
+  font-family: All Round Gothic, sans-serif;
   overflow-x: hidden;
 }
 
 h1,
 h2 {
-  font-family: Nasalization;
+  font-family: Nasalization, sans-serif;
 }
 
 h1 {
