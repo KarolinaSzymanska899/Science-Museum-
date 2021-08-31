@@ -25,6 +25,9 @@ html {
 
 body {
   display: grid;
+  width: 100vw;
+  height: auto;
+  grid-template-rows: repeat(3, auto);
 }
 
 h1,
@@ -40,6 +43,10 @@ h1 {
 h2 {
   font-size: 1.6rem;
   text-transform: capitalize;
+}
+
+a {
+  color: var(--purple);
 }
 
 /* MEDIA QUERIES */
