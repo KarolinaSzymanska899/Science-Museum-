@@ -7,3 +7,10 @@
   border: 0;
   box-sizing: border-box;
 }
+
+:root {
+  /* COLOURS */
+  --purple: #640880;
+  --yellow: #ffe229;
+  --grey: #e7e7e7;
+}
