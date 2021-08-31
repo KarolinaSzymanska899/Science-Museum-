@@ -2,6 +2,7 @@
 @import url("footer.css");
 @import url("https://use.typekit.net/dvq1lab.css");
 
+/* GLOBAL SETTINGS */
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +11,6 @@
 }
 
 :root {
-  /* COLOURS */
   --purple: #640880;
   --yellow: #ffe229;
   --grey: #e7e7e7;
@@ -19,6 +19,7 @@
 html {
   font-family: "All Round Gothic", sans-serif;
   overflow-x: hidden;
+  background-color: var(--grey);
 }
 
 h1,
