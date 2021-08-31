@@ -6,6 +6,10 @@ header {
   width: 7rem;
 }
 
+ul {
+  list-style: none;
+}
+
 li a {
   color: var(--purple);
   text-decoration: none;
