@@ -2,11 +2,15 @@ header {
   flex-direction: row;
   justify-content: space-between;
   background-color: #fff;
-  padding: 2rem;
+}
+
+.current {
+  border-bottom: 4px solid var(--purple);
 }
 
 .logo {
   width: 4rem;
+  margin: 1rem;
 }
 
 ul {
@@ -22,6 +26,7 @@ li a {
 
 nav {
   text-align: right;
+  margin: 1.5rem;
 }
 
 #toggle {
@@ -35,5 +40,9 @@ nav {
 
   label {
     display: none;
+  }
+
+  ul li {
+    margin: 0.5rem;
   }
 }
