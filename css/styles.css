@@ -32,6 +32,9 @@ header,
 main,
 footer {
   display: flex;
+}
+
+main {
   flex-direction: column;
 }
 
