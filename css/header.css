@@ -8,10 +8,6 @@ header {
   width: 4rem;
 }
 
-nav {
-  text-align: right;
-}
-
 ul {
   list-style: none;
 }
@@ -23,29 +19,9 @@ li a {
   font-family: "Nasalization", sans-serif;
 }
 
-label {
-  display: block;
-  cursor: pointer;
-}
-
-.menu {
-  display: none;
-}
-
 .menu a {
   display: block;
 }
 
-#toggle:checked + .menu {
-  display: block;
-}
-
 @media only screen and (min-width: 768px) {
-  #toggle {
-    display: none;
-  }
-
-  .menu {
-    display: inline-block;
-  }
 }
