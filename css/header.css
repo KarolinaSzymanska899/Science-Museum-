@@ -19,9 +19,5 @@ li a {
   font-family: "Nasalization", sans-serif;
 }
 
-.menu a {
-  display: block;
-}
-
 @media only screen and (min-width: 768px) {
 }
