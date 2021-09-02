@@ -1,10 +1,15 @@
 header {
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #fff;
-  border: 5px solid black;
 }
 
 .logo {
-  width: 7rem;
+  width: 4rem;
+}
+
+nav {
+  text-align: right;
 }
 
 ul {
@@ -18,5 +23,29 @@ li a {
   font-family: "Nasalization", sans-serif;
 }
 
-@media only screen and (min-width: 1024px) {
+label {
+  display: block;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+}
+
+.menu a {
+  display: block;
+}
+
+#toggle:checked + .menu {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  #toggle {
+    display: none;
+  }
+
+  .menu {
+    display: inline-block;
+  }
 }
