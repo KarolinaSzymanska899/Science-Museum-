@@ -26,19 +26,15 @@ li a {
 
 nav {
   margin: 0 auto;
-}
-
-#toggle {
-  display: none;
+  position: relative;
 }
 
 label {
   display: block;
   cursor: pointer;
-}
-
-.toggle {
-  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .menu {
@@ -49,6 +45,10 @@ label {
 
 .menu a {
   display: block;
+}
+
+#toggle {
+  display: none;
 }
 
 #toggle:checked + .menu {
