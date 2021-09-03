@@ -55,7 +55,7 @@ label {
 #toggle:checked ~ ul {
   display: none;
   animation: 0.5s forwards easing-in;
-  transition: 1s linear;
+  transition: 1.5s linear;
   height: 90vh;
   line-height: 50px;
   position: relative;
