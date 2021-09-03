@@ -34,8 +34,8 @@ label {
   display: block;
   cursor: pointer;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 1.5rem;
+  top: 1rem;
 }
 
 .menu {
