@@ -91,6 +91,10 @@ label {
     margin: 0.5rem;
   }
 
+  ul li:hover {
+    background-color: var(--yellow);
+  }
+
   .menu {
     display: flex;
     justify-content: flex-end;
