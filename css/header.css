@@ -27,6 +27,7 @@ li a {
 nav {
   margin: 0 auto;
   position: relative;
+  width: 100%;
 }
 
 label {
