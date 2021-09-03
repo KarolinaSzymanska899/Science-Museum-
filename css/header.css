@@ -25,7 +25,6 @@ li a {
 }
 
 nav {
-  text-align: right;
   margin: 0 auto;
 }
 
@@ -85,5 +84,9 @@ label {
 
   ul li {
     margin: 0.5rem;
+  }
+
+  nav {
+    margin: 0;
   }
 }
