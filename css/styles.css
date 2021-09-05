@@ -62,8 +62,38 @@ img {
   width: 100%;
 }
 
+/* CLASSES */
+
+.margin-top {
+  margin: 2rem 0 0 0;
+}
+
+.margin-top-bottom {
+  margin: 1rem 0;
+}
+
+.margin-bottom {
+  margin: 0 0 1rem 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta {
+  text-decoration: none;
+}
+
 /* MEDIA QUERIES */
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 700px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
 }
 @media only screen and (min-width: 1024px) {
 }

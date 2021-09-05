@@ -10,18 +10,6 @@ i {
   margin: 0.6rem;
 }
 
-.margin-top {
-  margin: 2rem 0 0 0;
-}
-
-.margin-top-bottom {
-  margin: 1rem 0;
-}
-
-.margin-bottom {
-  margin: 0 0 1rem 0;
-}
-
 .address {
   text-align: center;
 }
