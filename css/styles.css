@@ -94,13 +94,16 @@ img {
 
 @media only screen and (min-width: 900px) {
   .image-text {
+    display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   .img-50 {
     width: 50%;
   }
-}
 
-@media only screen and (min-width: 1024px) {
+  .text-50 {
+    width: 50%;
+  }
 }
