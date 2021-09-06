@@ -3,7 +3,22 @@ h1 {
 }
 
 p {
-  max-width: 90%;
+  max-width: 80%;
   text-align: center;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 700px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  p {
+    width: 50%;
+    text-align: left;
+  }
+
+  .read-more {
+    text-align: left;
+  }
 }
