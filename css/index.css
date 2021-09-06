@@ -33,7 +33,23 @@ a.cta-wide {
   }
 
   @media only screen and (min-width: 900px) {
-  a.cta-wide {
+    .section-cta {
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    a.cta-wide {
     padding: 4rem 2rem;
+    margin: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  a.cta-wide {
+    transition: padding 1s;
+  }
+
+  a.cta-wide:hover {
+    padding: 4rem; 
   }
 }

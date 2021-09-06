@@ -83,14 +83,6 @@ img {
   align-items: center;
 }
 
-a.cta-wide {
-  text-decoration: none;
-  color: var(--grey);
-  background-color: var(--purple);
-  text-align: center;
-  margin: 0.7rem 0;
-}
-
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 700px) {
@@ -101,10 +93,6 @@ a.cta-wide {
 }
 
 @media only screen and (min-width: 900px) {
-  a.cta-wide {
-    margin: 1.5rem;
-  }
-
   .image-text {
     display: flex;
     flex-direction: row;
