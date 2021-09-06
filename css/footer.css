@@ -16,6 +16,7 @@ i {
 
 @media only screen and (min-width: 700px) {
   footer {
+    margin: 2rem;
     flex-direction: row;
     justify-content: space-evenly;
     justify-items: center;
@@ -27,5 +28,11 @@ i {
   footer p.margin-bottom {
     margin: 0;
     width: 33.3%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  footer {
+    max-width: 60%;
   }
 }
