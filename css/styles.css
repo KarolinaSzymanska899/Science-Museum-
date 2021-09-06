@@ -94,9 +94,7 @@ img {
 
 @media only screen and (min-width: 900px) {
   .image-text {
-    display: flex;
     flex-direction: row;
-    width: 100%;
   }
 
   .img-50 {
