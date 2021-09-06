@@ -73,7 +73,7 @@ img {
 }
 
 .margin-top-bottom {
-  margin: 1rem 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .margin-bottom {
@@ -91,6 +91,16 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.cta {
+  background-color: var(--purple);
+  color: var(--yellow);
+  padding: 1.2rem 2.5rem;
+  border-radius: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Nasalization, sans-serif;
 }
 
 /* MEDIA QUERIES */
