@@ -8,6 +8,16 @@ p {
   margin: 0 auto;
 }
 
+a.cta-wide {
+  text-decoration: none;
+  color: var(--yellow);
+  background-color: var(--purple);
+  text-align: center;
+  margin: 0.5rem 0;
+  padding: 1rem 1rem;
+  border-radius: 15px;
+}
+
 @media only screen and (min-width: 700px) {
   .flex-container {
     flex-direction: column;
@@ -20,5 +30,10 @@ p {
 
   .read-more {
     text-align: left;
+  }
+
+  @media only screen and (min-width: 900px) {
+  a.cta-wide {
+    padding: 4rem 2rem;
   }
 }
