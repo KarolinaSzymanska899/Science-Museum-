@@ -6,4 +6,22 @@ section {
   section.flex-container {
     flex-direction: row;
   }
+
+  .img-50 {
+    width: 50%;
+  }
+
+  .text-50 {
+    width: 50%;
+  }
+
+  img.margin-bottom {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  section.margin-top-bottom {
+    margin: 0;
+  }
 }
