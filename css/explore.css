@@ -6,3 +6,26 @@
 p {
   max-width: 75%;
 }
+
+@media only screen and (min-width: 700px) {
+  article.flex-container {
+    flex-direction: column;
+  }
+
+  section.flex-container.margin-top-bottom {
+    flex-direction: row;
+  }
+
+  img.border-radius {
+    width: 33.3%;
+  }
+
+  .text-66 {
+    flex-direction: column;
+    width: 66.6%;
+  }
+
+  section {
+    width: 80%;
+  }
+}
