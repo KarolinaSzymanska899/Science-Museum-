@@ -9,3 +9,24 @@ div.text-column {
   flex-direction: column;
   width: 100%;
 }
+
+h2,
+p {
+  text-align: center;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 800px) {
+  section {
+    flex-direction: row;
+    max-width: 70%;
+  }
+
+  div.text {
+    width: 50%;
+  }
+}
