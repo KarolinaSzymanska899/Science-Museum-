@@ -14,8 +14,14 @@ div.text {
   flex-direction: column;
 }
 
+h2,
+p {
+  text-align: center;
+}
+
 p {
   width: 80%;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 700px) {
@@ -28,6 +34,10 @@ p {
   section {
     flex-direction: row;
     width: 70%;
+  }
+
+  div.text {
+    width: 50%;
   }
 }
 
