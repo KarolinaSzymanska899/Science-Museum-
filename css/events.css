@@ -68,9 +68,16 @@ div.content {
 
 div.card,
 div.face.face1,
+div.face.face.face2,
 div.content,
+img.img-card {
+  width: 300px;
+  height: 300px;
+}
+
 @media only screen and (min-width: 1000px) {
   div.container.home {
     flex-direction: row;
+    justify-content: space-around;
   }
 }
