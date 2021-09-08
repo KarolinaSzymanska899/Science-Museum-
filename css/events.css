@@ -9,17 +9,16 @@ p {
   text-align: center;
 }
 
+p {
+  line-height: 1;
+}
+
 div.container.home {
   display: flex;
   flex-direction: column;
-}
-
-.container.home {
-  margin: 3rem;
-  width: 90%;
+  justify-content: center;
+  width: 100%;
   position: relative;
-  display: flex;
-  justify-content: space-between;
 }
 
 .container.home .card .face {
