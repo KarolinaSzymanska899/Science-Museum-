@@ -29,4 +29,8 @@ p {
   div.text {
     width: 50%;
   }
+
+  a.map.margin-top-bottom {
+    max-width: 55%;
+  }
 }
