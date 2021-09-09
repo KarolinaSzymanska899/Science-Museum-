@@ -19,8 +19,12 @@ p {
 }
 
 /* Form */
-::placeholder {
+::placeholder,
+form input#name,
+form input#email,
+form textarea#message {
   font-family: "All Round Gothic", sans-serif;
+  color: var(--purple);
 }
 
 div.flex-container.div-form.margin-top-bottom {
