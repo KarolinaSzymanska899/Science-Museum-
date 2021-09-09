@@ -16,6 +16,13 @@ a.cta-wide {
   margin: 0.5rem 0;
   padding: 1rem 1rem;
   border-radius: 15px;
+  width: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+  a.cta-wide {
+    width: 35%;
+  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -39,6 +46,7 @@ a.cta-wide {
     }
     
     a.cta-wide {
+    width: 30%;
     padding: 4rem 2rem;
     margin: 2rem;
   }
@@ -46,10 +54,11 @@ a.cta-wide {
 
 @media only screen and (min-width: 1024px) {
   a.cta-wide {
-    transition: padding 1s;
+    transition: width 1s;
+    width: 25%;
   }
 
   a.cta-wide:hover {
-    padding: 4rem; 
+    width: 23%; 
   }
 }
