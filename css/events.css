@@ -17,6 +17,7 @@ div.container.home {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   position: relative;
 }
@@ -78,6 +79,7 @@ img.img-card,
   div.container.home {
     flex-direction: row;
     justify-content: space-around;
+    align-items: baseline;
   }
 
   div.face.face2 {
