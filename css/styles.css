@@ -94,15 +94,16 @@ img {
 }
 
 .cta {
+  display: block;
   background-color: var(--purple);
   color: var(--yellow);
-  padding: 2rem auto;
+  padding: 1rem 2.5rem;
   border-radius: 20px;
   text-transform: uppercase;
   text-decoration: none;
   font-family: Nasalization, sans-serif;
-  align-self: center;
   text-align: center;
+  align-self: center;
 }
 
 /* MEDIA QUERIES */
