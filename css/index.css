@@ -19,6 +19,10 @@ a.cta-wide {
   width: 50%;
 }
 
+section.invisible h2 {
+  display: none;
+}
+
 @media only screen and (min-width: 600px) {
   a.cta-wide {
     width: 35%;
@@ -38,17 +42,23 @@ a.cta-wide {
   .read-more {
     text-align: left;
   }
+}
 
-  @media only screen and (min-width: 900px) {
-    .section-cta {
-      flex-direction: row;
-      justify-content: center;
-    }
-    
-    a.cta-wide {
+@media only screen and (min-width: 900px) {
+  .section-cta {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  a.cta-wide {
     width: 30%;
     padding: 4rem 2rem;
     margin: 2rem;
+  }
+
+  div.image-text.margin-top,
+  img.img-50.margin-top {
+    margin-top: 0;
   }
 }
 
@@ -59,6 +69,6 @@ a.cta-wide {
   }
 
   a.cta-wide:hover {
-    width: 23%; 
+    width: 23%;
   }
 }
