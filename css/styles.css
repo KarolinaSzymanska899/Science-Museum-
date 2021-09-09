@@ -96,11 +96,13 @@ img {
 .cta {
   background-color: var(--purple);
   color: var(--yellow);
-  padding: 1rem 2.5rem;
+  padding: 2rem auto;
   border-radius: 20px;
   text-transform: uppercase;
   text-decoration: none;
   font-family: Nasalization, sans-serif;
+  align-self: center;
+  text-align: center;
 }
 
 /* MEDIA QUERIES */

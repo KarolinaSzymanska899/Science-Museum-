@@ -20,7 +20,7 @@ p {
 
 /* Form */
 ::placeholder {
-  font-family: All Round Gothic, sans-serif;
+  font-family: "All Round Gothic", sans-serif;
 }
 
 div.div-form {
@@ -44,6 +44,10 @@ input#name {
 @media only screen and (min-width: 600px) {
   div.div-form {
     width: 70%;
+  }
+
+  form button.cta.margin-top-bottom {
+    width: 25%;
   }
 }
 
