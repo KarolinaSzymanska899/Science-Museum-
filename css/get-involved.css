@@ -23,7 +23,7 @@ p {
   font-family: "All Round Gothic", sans-serif;
 }
 
-div.div-form {
+div.flex-container.div-form.margin-top-bottom {
   background-color: white;
   width: 90%;
   border-radius: 20px;
@@ -35,21 +35,11 @@ form textarea#message {
   border: var(--purple) 2px solid;
   border-radius: 20px;
   padding: 1rem;
-  width: 80%;
-}
-
-input#name {
-  border: var(--purple) 3px;
-  border-radius: 20px;
 }
 
 @media only screen and (min-width: 600px) {
-  div.div-form {
+  div.flex-container.div-form.margin-top-bottom {
     width: 70%;
-  }
-
-  form button.cta.margin-top-bottom {
-    width: 25%;
   }
 }
 
@@ -63,7 +53,7 @@ input#name {
     text-align: left;
   }
 
-  div.div-form {
+  div.flex-container.div-form.margin-top-bottom {
     width: 50%;
   }
 }
