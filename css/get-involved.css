@@ -19,16 +19,31 @@ p {
 }
 
 /* Form */
+::placeholder {
+  font-family: All Round Gothic, sans-serif;
+}
+
 div.div-form {
   background-color: white;
-  height: 300px;
-  border-radius: 20px;
   width: 90%;
+}
+
+form input#name,
+form input#email,
+form textarea#message {
+  border: var(--purple) 2px solid;
+  border-radius: 20px;
 }
 
 input#name {
   border: var(--purple) 3px;
   border-radius: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  div.div-form {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -39,5 +54,9 @@ input#name {
   p {
     max-width: 50%;
     text-align: left;
+  }
+
+  div.div-form {
+    width: 50%;
   }
 }
