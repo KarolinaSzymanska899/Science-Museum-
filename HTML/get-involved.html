@@ -59,14 +59,32 @@
             <p>Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.</p>
         </div>
 
-        <div class="text-column margin-top-bottom">
-            <h2>contact us</h2>
+        <div class="center text-column margin-top-bottom">
+            <h2 class="margin-top-bottom">contact us</h2>
             <form action="submit.php" method="POST" class="text-column">
-                <input type="text" name="firstname" placeholder="First name">
-                <input type="text" name="lastname" placeholder="Last name">
-                <input type="email" name="email" placeholder="Email">
-                <textarea id="message" name="message" rows="5" cols="30" placeholder="Message"></textarea>
-                <button type="submit">Send</button>
+                
+                <div class="text-field">
+                    <label>your name</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="text-field">
+                    <label for="surname">your surname</label>
+                    <input type="text" id="surname" required>
+                </div>
+
+                <div class="text-field">
+                    <label>your email</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="text-field">
+                    <label>message</label>
+                    <textarea rows="5" cols="30"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+                
             </form>
         </div>
 
