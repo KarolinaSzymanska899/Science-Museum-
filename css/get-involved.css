@@ -33,6 +33,7 @@ form input#email,
 form textarea#message {
   border: var(--purple) 2px solid;
   border-radius: 20px;
+  padding: 1rem;
 }
 
 input#name {
