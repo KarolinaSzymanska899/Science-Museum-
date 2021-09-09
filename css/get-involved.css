@@ -19,6 +19,17 @@ p {
 }
 
 /* Form */
+div.div-form {
+  background-color: white;
+  height: 300px;
+  border-radius: 20px;
+  width: 90%;
+}
+
+input#name {
+  border: var(--purple) 3px;
+  border-radius: 20px;
+}
 
 @media only screen and (min-width: 800px) {
   img.volunteers {
