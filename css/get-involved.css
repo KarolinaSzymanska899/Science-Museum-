@@ -29,12 +29,17 @@ div.flex-container.div-form.margin-top-bottom {
   border-radius: 20px;
 }
 
+form.flex-container {
+  width: 100%;
+}
+
 form input#name,
 form input#email,
 form textarea#message {
   border: var(--purple) 2px solid;
   border-radius: 20px;
   padding: 1rem;
+  width: 75%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -55,5 +60,13 @@ form textarea#message {
 
   div.flex-container.div-form.margin-top-bottom {
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  form input#name,
+  form input#email,
+  form textarea#message {
+    width: 60%;
   }
 }
