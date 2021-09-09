@@ -18,6 +18,8 @@ p {
   margin: 0 auto;
 }
 
+/* Form */
+
 @media only screen and (min-width: 800px) {
   img.volunteers {
     max-width: 45%;
