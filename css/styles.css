@@ -62,11 +62,15 @@ img {
   width: 100%;
 }
 
-.text-50 p {
-  width: 70%;
+i.fas.fa-arrow-circle-up {
+  font-size: 3rem;
 }
 
 /* CLASSES */
+
+.text-50 p {
+  width: 70%;
+}
 
 .margin-top {
   margin: 2rem 0 0 0;
