@@ -17,7 +17,7 @@
 }
 
 html {
-  font-family: "All Round Gothic", sans-serif;
+  font-family: "All-Round-Gothic", sans-serif;
   color: var(--purple);
   background-color: var(--grey);
   overflow-x: hidden;
@@ -52,10 +52,6 @@ h1 {
 h2 {
   font-size: 1.6rem;
   text-transform: capitalize;
-}
-
-p {
-  font-family: "All Round Gothic" sans-serif;
 }
 
 a {
