@@ -37,7 +37,7 @@ The website should be responsive and be easy to use on a variety of devices.
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:KarolinaSzymanska899/Science-Museum-.git
+git clone git@github.com:KarolinaSzymanska899/Science-Museum.git
 ```
 
 ### Running
