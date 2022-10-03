@@ -1,4 +1,4 @@
-# Science Musuem - Semester Project 1
+# Science Museum - Semester Project 1
 
 <p align="center">
   <img src="./images/sciencemuseum.jpg" alt="Community science musuem homepage" />
